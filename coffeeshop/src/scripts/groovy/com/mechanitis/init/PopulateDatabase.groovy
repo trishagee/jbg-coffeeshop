@@ -6,20 +6,20 @@ import org.bson.Document
 
 def mongoClient = new MongoClient()
 def collection = mongoClient.getDatabase('Cafelito').getCollection('CoffeeShop')
+// NOTE: This script drops the whole collection before reimporting it
 collection.drop()
 
-println new File('resources/all-coffee-shops.xml').getAbsolutePath()
-
+//NOTE: this requires the correct working directory (scripts) in the run configuration
 def xmlSlurper = new XmlSlurper().parse(new File('resources/all-coffee-shops.xml'))
 
-xmlSlurper.node.each { child ->
-    def coffeeShop = [openStreetMapId: child.@id.text(),
-                      location       : [coordinates: [child.@lon, child.@lat]*.text()*.toDouble(),
+xmlSlurper.node.each {
+    def coffeeShop = [openStreetMapId: it.@id.text(),
+                      location       : [coordinates: [it.@lon, it.@lat]*.text()*.toDouble(),
                                         type       : 'Point']]
-    child.tag.each { theNode ->
-        def fieldName = theNode.@k.text()
+    it.tag.each {
+        def fieldName = it.@k.text()
         if (isValidFieldName(fieldName)) {
-            coffeeShop.put(fieldName, theNode.@v.text())
+            coffeeShop.put(fieldName, it.@v.text())
         }
     }
     if (coffeeShop.name) {
@@ -33,5 +33,5 @@ println "\nTotal imported: "+collection.countDocuments()
 collection.createIndex(Indexes.geo2dsphere('location', '2dsphere'))
 
 private static boolean isValidFieldName(fieldName) {
-    !fieldName.contains('.') && fieldName != 'location'
+    !fieldName.contains('.') && !(fieldName == 'location')
 }
