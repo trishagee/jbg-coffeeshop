@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="coffeeshop" external.linked.project.path="$MODULE_DIR$/../../coffeeshop" external.root.project.path="$MODULE_DIR$/../../coffeeshop" external.system.id="GRADLE" external.system.module.group="com.mechanitis" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../coffeeshop" rootProjectPath="$MODULE_DIR$/../../coffeeshop" />
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../coffeeshop/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.11/f6b34997d04c1538ce451d3955298f46fdb4dbd4/groovy-all-2.3.11.jar:/Users/trisha/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.10.2/ebd0adedee91359b5dec9c6768e8489f6ad472f2/mongo-java-driver-3.10.2.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="coffeeshop" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../coffeeshop/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../coffeeshop/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../coffeeshop">
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/test/groovy" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/scripts/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../coffeeshop/src/scripts/groovy" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../coffeeshop/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../coffeeshop/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../coffeeshop/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongo-java-driver:3.10.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.platform:junit-platform-commons:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apiguardian:apiguardian-api:1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.opentest4j:opentest4j:1.1.0" level="project" />
+  </component>
+</module>

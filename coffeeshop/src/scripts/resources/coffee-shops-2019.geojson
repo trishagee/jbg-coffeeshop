@@ -1,0 +1,372 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-05-28T13:27:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/261859088",
+        "addr:city": "Roma",
+        "addr:country": "IT",
+        "addr:housenumber": "82",
+        "addr:postcode": "00186",
+        "addr:street": "Piazza di Sant'Eustachio",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "email": "info@santeustachioilcaffe.it",
+        "name": "Sant'Eustachio",
+        "name:it": "Sant'Eustachio Lloyd Caffe",
+        "name:zh": "鹿角咖啡",
+        "opening_hours": "Su-Th 07:30-01:00; Fr 07:30-01:30; Sa 07:30-02:00",
+        "phone": "+39 06 68802048",
+        "website": "http://www.santeustachioilcaffe.it/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4753209,
+          41.898244
+        ]
+      },
+      "id": "node/261859088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/768302858",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Giannerini"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6066507,
+          41.8153416
+        ]
+      },
+      "id": "node/768302858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1575159423",
+        "addr:housenumber": "17",
+        "addr:street": "Viale della Vittoria",
+        "amenity": "bar",
+        "cuisine": "coffee_shop",
+        "name": "Caffè del viale",
+        "name:it": "Caffè del viale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2499195,
+          41.2882149
+        ]
+      },
+      "id": "node/1575159423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1658082016",
+        "addr:city": "Roma",
+        "addr:country": "IT",
+        "addr:housenumber": "186",
+        "addr:postcode": "00173",
+        "addr:street": "Viale Antonio Ciamarra",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Il Caffè Europeo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5907811,
+          41.8530703
+        ]
+      },
+      "id": "node/1658082016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1695061391",
+        "amenity": "bar",
+        "cuisine": "coffee_shop",
+        "name": "Re del Gelato",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4880713,
+          41.8444502
+        ]
+      },
+      "id": "node/1695061391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1936515342",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafè Boario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4726928,
+          41.8747599
+        ]
+      },
+      "id": "node/1936515342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3248368029",
+        "addr:city": "Roma",
+        "addr:housenumber": "1",
+        "addr:postcode": "00153",
+        "addr:street": "Via di Porta Settimiana",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Caffe Settimiano",
+        "outdoor_seating": "yes",
+        "phone": "+39 06 581 0468"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4676277,
+          41.8920685
+        ]
+      },
+      "id": "node/3248368029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3269328469",
+        "addr:city": "Roma",
+        "addr:housenumber": "35",
+        "addr:postcode": "00146",
+        "addr:street": "Piazza Enrico Fermi",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Dolci Desideri",
+        "phone": "+4406 556 6605",
+        "website": "https://www.dolcidesideri.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4689627,
+          41.8638886
+        ]
+      },
+      "id": "node/3269328469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4121087990",
+        "addr:street": "Via Portuense",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "independes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2361529,
+          41.7722702
+        ]
+      },
+      "id": "node/4121087990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4149237093",
+        "addr:city": "Roma",
+        "addr:housenumber": "12",
+        "addr:postcode": "00169",
+        "addr:street": "Via Pietro Romano",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Bar Tabacchi Capanna",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5779762,
+          41.8711878
+        ]
+      },
+      "id": "node/4149237093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4205375183",
+        "addr:city": "Roma",
+        "addr:housenumber": "1179",
+        "addr:postcode": "00188",
+        "addr:street": "Via Flaminia",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "cuisine_1": "ice cream",
+        "name": "La Stazione"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4939029,
+          41.9880066
+        ]
+      },
+      "id": "node/4205375183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4205433989",
+        "addr:city": "Roma",
+        "addr:housenumber": "1213",
+        "addr:postcode": "00188",
+        "addr:street": "Via Flaminia",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Torrefazione Caffè Lucio",
+        "opening_hours": "Mo-Fr 05:30-20:00; Sa 05:30-15:00; Su 06:00-12:00",
+        "website": "https://www.facebook.com/caffelucioroma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4939679,
+          41.988701
+        ]
+      },
+      "id": "node/4205433989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4631804287",
+        "addr:city": "Roma",
+        "addr:housenumber": "55",
+        "addr:postcode": "00187",
+        "addr:street": "Via Piave",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "description": "Faro - Artigiani del caffè\nSpecialty coffee shop",
+        "internet_access": "wlan",
+        "name": "Faro",
+        "outdoor_seating": "no",
+        "phone": "3332253665",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4983822,
+          41.9102507
+        ]
+      },
+      "id": "node/4631804287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5057989221",
+        "addr:street": "Viale Europa",
+        "amenity": "bar",
+        "cuisine": "coffee_shop",
+        "name": "Dolce Notte Cafè",
+        "name:it": "Dolce Notte Cafè",
+        "opening_hours": "Mo-Su 20:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2349175,
+          41.2862747
+        ]
+      },
+      "id": "node/5057989221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5382083821",
+        "addr:city": "Rome",
+        "addr:housenumber": "5/7",
+        "addr:postcode": "00185",
+        "addr:street": "Via Daniele Manin",
+        "amenity": "cafe",
+        "contact:phone": "+39 064881703",
+        "cuisine": "coffee_shop",
+        "name": "gusto Napoli",
+        "phone": "+39 064881703",
+        "shop": "beverages",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5004095,
+          41.9001734
+        ]
+      },
+      "id": "node/5382083821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5415131210",
+        "addr:street": "Viale Vasco de Gama",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Ringo Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2787616,
+          41.7333902
+        ]
+      },
+      "id": "node/5415131210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5435192271",
+        "amenity": "bar",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Alembic",
+        "name:ru": "Алембик",
+        "opening_hours": "Mo-Su 09:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4762402,
+          41.8892881
+        ]
+      },
+      "id": "node/5435192271"
+    }
+  ]
+}
