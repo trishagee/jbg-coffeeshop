@@ -11,24 +11,20 @@ collection.drop()
 
 //NOTE: this requires the correct working directory (scripts) in the run configuration
 def xmlSlurper = new XmlSlurper().parse(new File('resources/all-coffee-shops-2019.xml'))
+xmlSlurper.node.findAll { it.tag.any { it.@k.text() == 'name' } }
+               .each {
+                   def coffeeShop = [openStreetMapId: it.@id.text(),
+                                     location       : [coordinates: [it.@lon, it.@lat]*.text()*.toDouble(),
+                                                       type       : 'Point']]
+                   it.tag.findAll { isValidFieldName(it.@k.text()) }
+                         .each {
+                             coffeeShop.put(it.@k.text(), it.@v.text())
+                         }
+//                   println coffeeShop
+                   collection.insertOne(new Document(coffeeShop))
+               }
 
-xmlSlurper.node.each {
-    def coffeeShop = [openStreetMapId: it.@id.text(),
-                      location       : [coordinates: [it.@lon, it.@lat]*.text()*.toDouble(),
-                                        type       : 'Point']]
-    it.tag.each {
-        def fieldName = it.@k.text()
-        if (isValidFieldName(fieldName)) {
-            coffeeShop.put(fieldName, it.@v.text())
-        }
-    }
-    if (coffeeShop.name) {
-        println coffeeShop
-        collection.insertOne(new Document(coffeeShop))
-    }
-}
-
-println "\nTotal imported: "+collection.countDocuments()
+println "\nTotal imported: " + collection.countDocuments()
 
 collection.createIndex(Indexes.geo2dsphere('location', '2dsphere'))
 
