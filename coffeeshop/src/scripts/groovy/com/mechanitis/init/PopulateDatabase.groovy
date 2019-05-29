@@ -10,7 +10,7 @@ def collection = mongoClient.getDatabase('Cafelito').getCollection('CoffeeShop')
 collection.drop()
 
 //NOTE: this requires the correct working directory (scripts) in the run configuration
-def xmlSlurper = new XmlSlurper().parse(new File('resources/all-coffee-shops.xml'))
+def xmlSlurper = new XmlSlurper().parse(new File('resources/all-coffee-shops-2019.xml'))
 
 xmlSlurper.node.each {
     def coffeeShop = [openStreetMapId: it.@id.text(),
@@ -35,3 +35,6 @@ collection.createIndex(Indexes.geo2dsphere('location', '2dsphere'))
 private static boolean isValidFieldName(fieldName) {
     !fieldName.contains('.') && !(fieldName == 'location')
 }
+
+//9373 - old data
+//25051 - 2019 data
